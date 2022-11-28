@@ -1,0 +1,1442 @@
+﻿Log file open, 11/28/22 01:13:10
+LogInit: Display: Running engine for game: AlexBrusowProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.271600
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin EasyBallistics
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 9 5900HX with Radeon Graphics        , GPU: AMD Radeon(TM) Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+[2022.11.27-22.13.11:567][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.11.27-22.13.11:567][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+[2022.11.27-22.13.11:567][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+[2022.11.27-22.13.11:572][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.27-22.13.11:572][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.11.27-22.13.11:573][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.11.27-22.13.11:574][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.27-22.13.11:574][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.27-22.13.11:575][  0]LogHAL: Display: Platform has ~ 16 GB [16559472640 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.27-22.13.11:575][  0]LogInit: Going up to parent DeviceProfile []
+[2022.11.27-22.13.11:575][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.27-22.13.11:575][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Scalability.ini]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.11.27-22.13.11:576][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.11.27-22.13.11:580][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.11.27-22.13.11:580][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.11.27-22.13.11:580][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.11.27-22.13.11:580][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/UEProjects/AlexBrusowProject/Saved/Config/Windows/Engine.ini]
+[2022.11.27-22.13.11:582][  0]LogInit: Computer: DESKTOP-5MR5OLQ
+[2022.11.27-22.13.11:582][  0]LogInit: User: pus5y
+[2022.11.27-22.13.11:582][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.11.27-22.13.11:582][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.27-22.13.11:582][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2022.11.27-22.13.11:582][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.27-22.13.11:582][  0]LogMemory: Process Physical Memory: 117.71 MB used, 117.71 MB peak
+[2022.11.27-22.13.11:582][  0]LogMemory: Process Virtual Memory: 114.08 MB used, 114.08 MB peak
+[2022.11.27-22.13.11:582][  0]LogMemory: Physical Memory: 6549.66 MB used,  9242.69 MB free, 15792.34 MB total
+[2022.11.27-22.13.11:582][  0]LogMemory: Virtual Memory: 5203.03 MB used,  134212528.00 MB free, 134217728.00 MB total
+[2022.11.27-22.13.11:589][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.11.27-22.13.11:829][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.11.27-22.13.11:832][  0]LogInit: Using OS detected language (ru-RU).
+[2022.11.27-22.13.11:832][  0]LogInit: Using OS detected locale (ru-RU).
+[2022.11.27-22.13.11:854][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2022.11.27-22.13.11:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2022.11.27-22.13.11:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2022.11.27-22.13.11:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2022.11.27-22.13.11:854][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2022.11.27-22.13.11:855][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2022.11.27-22.13.11:855][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2022.11.27-22.13.11:855][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2022.11.27-22.13.11:880][  0]LogInit: Setting process to per monitor DPI aware
+[2022.11.27-22.13.11:965][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.11.27-22.13.11:965][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.11.27-22.13.13:985][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.27-22.13.13:985][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.11.27-22.13.13:985][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.11.27-22.13.13:985][  0]LogD3D11RHI: D3D11 adapters:
+[2022.11.27-22.13.14:068][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Laptop GPU' (Feature Level 11_0)
+[2022.11.27-22.13.14:068][  0]LogD3D11RHI:       8044/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.11.27-22.13.14:101][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2022.11.27-22.13.14:101][  0]LogD3D11RHI:       496/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2022.11.27-22.13.14:102][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.11.27-22.13.14:102][  0]LogD3D11RHI:       0/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.11.27-22.13.14:102][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.11.27-22.13.14:111][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.11.27-22.13.14:111][  0]LogD3D11RHI:     GPU DeviceId: 0x249d (for the marketing name, search the web for "GPU Device Id")
+[2022.11.27-22.13.14:111][  0]LogWindows: EnumDisplayDevices:
+[2022.11.27-22.13.14:111][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2022.11.27-22.13.14:112][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:1)
+[2022.11.27-22.13.14:112][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2022.11.27-22.13.14:112][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.11.27-22.13.14:112][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.11.27-22.13.14:112][  0]LogWindows:    5. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.11.27-22.13.14:112][  0]LogWindows:    6. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2022.11.27-22.13.14:112][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.11.27-22.13.14:112][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Laptop GPU
+[2022.11.27-22.13.14:112][  0]LogD3D11RHI:   Driver Version: 516.40 (internal:31.0.15.1640, unified:516.40)
+[2022.11.27-22.13.14:112][  0]LogD3D11RHI:      Driver Date: 6-6-2022
+[2022.11.27-22.13.14:112][  0]LogRHI: Texture pool is 5630 MB (70% of 8044 MB)
+[2022.11.27-22.13.14:163][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.11.27-22.13.14:163][  0]LogD3D11RHI: Async texture creation enabled
+[2022.11.27-22.13.14:163][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.11.27-22.13.14:222][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.11.27-22.13.14:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.27-22.13.14:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.27-22.13.14:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.27-22.13.14:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.27-22.13.14:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.27-22.13.14:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.11.27-22.13.14:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.27-22.13.14:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.27-22.13.14:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.11.27-22.13.14:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.11.27-22.13.14:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.11.27-22.13.14:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.11.27-22.13.14:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.11.27-22.13.14:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.27-22.13.14:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.27-22.13.14:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.11.27-22.13.14:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.27-22.13.14:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.27-22.13.14:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.27-22.13.14:665][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.27-22.13.14:707][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.27-22.13.14:830][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../UEProjects/AlexBrusowProject/Intermediate/Shaders/WorkingDirectory/9500/).
+[2022.11.27-22.13.14:830][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pus5y/AppData/Local/Temp/UnrealShaderWorkingDir/008ECE1D45B119521BD7E2B7CA8F77C8/'.
+[2022.11.27-22.13.14:831][  0]LogXGEController: Cleaning working directory: C:/Users/pus5y/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.11.27-22.13.14:832][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.11.27-22.13.14:832][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.11.27-22.13.14:832][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.27-22.13.16:928][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.27-22.13.16:997][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/pus5y/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.11.27-22.13.16:997][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/pus5y/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.11.27-22.13.16:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UEProjects/AlexBrusowProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.27-22.13.16:997][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.27-22.13.16:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UEProjects/AlexBrusowProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.27-22.13.16:997][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.27-22.13.17:014][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.27-22.13.17:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.27-22.13.17:014][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.11.27-22.13.17:016][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pus5y/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.27-22.13.17:016][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.11.27-22.13.17:016][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.11.27-22.13.17:058][  0]LogSlate: Using FreeType 2.10.0
+[2022.11.27-22.13.17:068][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.27-22.13.17:099][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2022.11.27-22.13.17:416][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.27-22.13.17:631][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.27-22.13.17:631][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.11.27-22.13.17:631][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.11.27-22.13.17:631][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.11.27-22.13.17:631][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.11.27-22.13.17:680][  0]LogNetVersion: AlexBrusowProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2975871388)
+[2022.11.27-22.13.18:636][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027A5E9B1340), frame # 0
+[2022.11.27-22.13.18:636][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027A5E8D7EC0), frame # 0
+[2022.11.27-22.13.18:639][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027A5E92B000), frame # 0
+[2022.11.27-22.13.18:697][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.032093 seconds
+[2022.11.27-22.13.18:701][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.11.27-22.13.18:701][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.11.27-22.13.18:701][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.27-22.13.19:448][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.27-22.13.19:454][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.27-22.13.19:566][  0]SourceControl: Source control is disabled
+[2022.11.27-22.13.19:566][  0]SourceControl: Source control is disabled
+[2022.11.27-22.13.19:575][  0]SourceControl: Source control is disabled
+[2022.11.27-22.13.19:580][  0]SourceControl: Source control is disabled
+[2022.11.27-22.13.19:589][  0]SourceControl: Source control is disabled
+[2022.11.27-22.13.19:973][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.27-22.13.19:995][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.27-22.13.19:995][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.27-22.13.20:072][  0]LogOcInput: OculusInput pre-init called
+[2022.11.27-22.13.20:085][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.11.27-22.13.20:085][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.11.27-22.13.20:198][  0]LogEngine: Initializing Engine...
+[2022.11.27-22.13.20:200][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.27-22.13.20:200][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.11.27-22.13.20:202][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2022.11.27-22.13.20:459][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.11.27-22.13.20:486][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.27-22.13.20:486][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027A638E8C00), frame # 0
+[2022.11.27-22.13.20:486][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027A63908B80), frame # 0
+[2022.11.27-22.13.20:496][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.27-22.13.20:496][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.27-22.13.20:496][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.27-22.13.20:496][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.27-22.13.20:496][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.27-22.13.20:496][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.27-22.13.20:496][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.27-22.13.20:496][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.27-22.13.20:497][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.11.27-22.13.20:497][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.27-22.13.20:513][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.27-22.13.20:513][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.11.27-22.13.20:536][  0]LogAudioMixer: Display: Using Audio Device 1 - LG HDR WFHD (AMD High Definition Audio Device)
+[2022.11.27-22.13.20:537][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.27-22.13.20:555][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.27-22.13.20:556][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.27-22.13.20:557][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.27-22.13.20:558][  0]LogInit: FAudioDevice initialized.
+[2022.11.27-22.13.20:559][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.11.27-22.13.20:591][  0]LogDerivedDataCache: Saved boot cache 0.03s 75MB C:/Users/pus5y/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.11.27-22.13.20:592][  0]LogInit: Texture streaming: Enabled
+[2022.11.27-22.13.20:610][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.27-22.13.20:610][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.11.27-22.13.20:612][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.11.27-22.13.20:662][  0]LogInit: Transaction tracking system initialized
+[2022.11.27-22.13.20:702][  0]BlueprintLog: New page: Editor Load
+[2022.11.27-22.13.20:852][  0]LocalizationService: Localization service is disabled
+[2022.11.27-22.13.21:314][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.11.27-22.13.21:314][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.27-22.13.21:551][  0]LogFileCache: Scanning file cache for directory 'C:/UEProjects/AlexBrusowProject/Content/' took 0.02s
+[2022.11.27-22.13.21:722][  0]SourceControl: Source control is disabled
+[2022.11.27-22.13.21:722][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.414
+[2022.11.27-22.13.21:722][  0]Cmd: MAP LOAD FILE="../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.27-22.13.21:727][  0]LightingResults: New page: Lighting Build
+[2022.11.27-22.13.21:731][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-22.13.21:732][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-22.13.21:732][  0]MapCheck: New page: Map Check
+[2022.11.27-22.13.21:732][  0]LightingResults: New page: Lighting Build
+[2022.11.27-22.13.21:746][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027A638E8C00), frame # 0
+[2022.11.27-22.13.21:746][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027A63908B80), frame # 0
+[2022.11.27-22.13.21:747][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.11.27-22.13.24:492][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.27-22.13.24:492][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027A54849400), frame # 0
+[2022.11.27-22.13.24:492][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027A4E955800), frame # 0
+[2022.11.27-22.13.24:538][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.27-22.13.24:561][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.11.27-22.13.24:561][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.27-22.13.24:561][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,298ms to complete.
+[2022.11.27-22.13.24:561][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.839
+[2022.11.27-22.13.24:580][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.272
+[2022.11.27-22.13.25:146][  0]LogCollectionManager: Loaded 0 collections in 0.002312 seconds
+[2022.11.27-22.13.25:169][  0]LogFileCache: Scanning file cache for directory 'C:/UEProjects/AlexBrusowProject/Saved/Collections/' took 0.00s
+[2022.11.27-22.13.25:169][  0]LogFileCache: Scanning file cache for directory 'C:/UEProjects/AlexBrusowProject/Content/Developers/pus5y/Collections/' took 0.00s
+[2022.11.27-22.13.25:169][  0]LogFileCache: Scanning file cache for directory 'C:/UEProjects/AlexBrusowProject/Content/Collections/' took 0.00s
+[2022.11.27-22.13.25:169][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3437 classes and 826 folders.
+[2022.11.27-22.13.25:176][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.27-22.13.25:544][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.27-22.13.25:569][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.27-22.13.25:577][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.27-22.13.25:585][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.27-22.13.25:591][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.27-22.13.25:597][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2022.11.27-22.13.25:796][  0]LogSlate: Took 0.005990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-22.13.25:804][  0]LogSlate: Took 0.005762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-22.13.25:810][  0]LogSlate: Took 0.005204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-22.13.25:889][  0]LogRenderer: Reallocating scene render targets to support 964x732 Format 10 NumSamples 1 (Frame:1).
+[2022.11.27-22.13.26:057][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.27-22.13.26:058][  0]LogLoad: (Engine Initialization) Total time: 18.75 seconds
+[2022.11.27-22.13.26:058][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.27-22.13.26:154][  0]LogAssetRegistry: Asset discovery search completed in 9.0567 seconds
+[2022.11.27-22.13.26:158][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.11.27-22.13.26:160][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.27-22.13.26:202][  0]LogSlate: Took 0.004626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-22.13.27:419][  4]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-22.13.35:357][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.11.27-22.13.35:424][ 51]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/ThirdPersonExampleMap0D2227CB4E47F46173F5F6A608A8038B.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap.umap'
+[2022.11.27-22.13.35:542][ 51]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/ThirdPersonExampleMap_BuiltData4E2DD2FF4700A0EC6298949988E7C99C.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.11.27-22.13.35:561][ 51]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.27-22.13.35:561][ 51]LogContentValidation: Display: Validating World /Game/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.11.27-22.13.35:561][ 51]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.11.27-22.13.35:611][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.11.27-22.14.07:184][981]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\RobotoMono-VariableFont_wght.ttf)
+[2022.11.27-22.14.22:278][981]LogSlate: Window 'Font Face Import Options' being destroyed
+[2022.11.27-22.14.22:283][981]Message dialog closed, result: YesAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2022.11.27-22.14.22:286][981]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.11.27-22.14.22:290][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-22.14.22:297][981]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-22.14.22:298][981]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-22.14.22:317][981]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-22.14.22:323][981]LogSlate: Took 0.000556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-22.14.22:325][981]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-22.14.30:034][430]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-VariableFont_wght_Fon4570CE7B4A9453456EB5A88AF12E4051.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-VariableFont_wght_Font.uasset'
+[2022.11.27-22.14.30:036][430]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-VariableFont_wght9627587A4E616E5204A2499B14287E5F.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-VariableFont_wght.uasset'
+[2022.11.27-22.14.30:170][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2022.11.27-22.14.30:184][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.11.27-22.14.30:205][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.11.27-22.14.30:217][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.11.27-22.14.30:329][430]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.27-22.14.30:329][430]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-VariableFont_wght_Font.RobotoMono-VariableFont_wght_Font
+[2022.11.27-22.14.30:329][430]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-VariableFont_wght.RobotoMono-VariableFont_wght
+[2022.11.27-22.14.32:954][584]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.WBP_MainMenu
+[2022.11.27-22.14.33:451][584]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2022.11.27-22.14.34:528][584]LogSlate: Took 0.004906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.27-22.14.36:364][684]LogSlate: Window 'WBP_MainMenu' being destroyed
+[2022.11.27-22.14.37:946][777]LogSlate: Took 0.009101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.27-22.15.09:486][658]LogEditorTransaction: Undo Edit Typeface
+[2022.11.27-22.15.09:789][672]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-22.15.10:046][683]LogEditorTransaction: Undo Edit Typeface
+[2022.11.27-22.15.10:262][695]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-22.15.10:581][713]LogEditorTransaction: Undo Edit Typeface
+[2022.11.27-22.15.10:945][734]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-22.15.11:311][755]LogEditorTransaction: Undo Edit Typeface
+[2022.11.27-22.15.11:629][773]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-22.15.12:063][798]LogEditorTransaction: Undo Edit Typeface
+[2022.11.27-22.15.12:379][816]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-22.15.37:121][288]LogAssetEditorSubsystem: Opening Asset editor for Font /Engine/EngineFonts/Roboto.Roboto
+[2022.11.27-22.15.58:056][510]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2022.11.27-22.15.58:090][510]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/ThirdPersonExampleMapED0A0BFF4EDDF290A7FA5EBE40913C87.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap.umap'
+[2022.11.27-22.15.58:169][510]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/ThirdPersonExampleMap_BuiltData239D813047F591C1DD8AF19A2286D738.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.11.27-22.15.58:190][510]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.27-22.15.58:190][510]LogContentValidation: Display: Validating World /Game/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.11.27-22.15.58:190][510]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.11.27-22.15.58:486][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.11.27-22.15.58:520][524]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/WBP_MainMenu3091831E47063481B38C9EBDABF21F1A.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.uasset'
+[2022.11.27-22.15.58:539][524]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2022.11.27-22.15.58:539][524]LogContentValidation: Display: Validating WidgetBlueprint /Game/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.WBP_MainMenu
+[2022.11.27-23.30.03:147][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.11.27-23.30.04:098][347]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.27-23.30.04:198][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2022.11.27-23.30.04:221][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.11.27-23.30.04:225][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.04:231][347]LogSlate: Took 0.004291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.04:237][347]LogSlate: Took 0.003977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.04:271][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.11.27-23.30.04:291][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.11.27-23.30.04:304][347]LogSlate: Took 0.004341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-23.30.04:308][347]LogSlate: Took 0.003235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-23.30.04:310][347]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.07:852][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-Bold.ttf)
+[2022.11.27-23.30.09:372][424]LogSlate: Window 'Font Face Import Options' being destroyed
+[2022.11.27-23.30.09:375][424]Message dialog closed, result: YesAll, title: Font Face Import Options, text: Would you like to create a new Font asset using the imported Font Face as its default font?
+[2022.11.27-23.30.09:384][424]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.11.27-23.30.09:386][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.09:390][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-BoldItalic.ttf)
+[2022.11.27-23.30.09:398][424]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2022.11.27-23.30.09:400][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-ExtraLight.ttf)
+[2022.11.27-23.30.09:403][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-ExtraLightItalic.ttf)
+[2022.11.27-23.30.09:413][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-Italic.ttf)
+[2022.11.27-23.30.09:421][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-Light.ttf)
+[2022.11.27-23.30.09:430][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-LightItalic.ttf)
+[2022.11.27-23.30.09:437][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-Medium.ttf)
+[2022.11.27-23.30.09:446][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-MediumItalic.ttf)
+[2022.11.27-23.30.09:454][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-Regular.ttf)
+[2022.11.27-23.30.09:461][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-SemiBold.ttf)
+[2022.11.27-23.30.09:470][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-SemiBoldItalic.ttf)
+[2022.11.27-23.30.09:477][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-Thin.ttf)
+[2022.11.27-23.30.09:486][424]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\pus5y\Desktop\static\RobotoMono-ThinItalic.ttf)
+[2022.11.27-23.30.09:491][424]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.09:493][424]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.09:495][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.09:498][424]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.09:499][424]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.09:516][424]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-23.30.09:520][424]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-23.30.09:522][424]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.18:630][961]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Font.RobotoMono-ExtraLight_Font
+[2022.11.27-23.30.20:948][ 95]LogAssetEditorSubsystem: Opening Asset editor for FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic.RobotoMono-ExtraLightItalic
+[2022.11.27-23.30.30:463][662]LogSlate: Took 0.004548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.27-23.30.31:344][714]LogSlate: Took 0.004582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.27-23.30.41:623][328]Cmd: TRANSACTION UNDO
+[2022.11.27-23.30.41:623][328]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-23.30.41:665][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.41:666][328]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.41:668][328]LogSlate: Took 0.000656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.27-23.30.41:668][328]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.27-23.30.41:669][328]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-23.30.41:682][328]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-23.30.41:684][328]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.41:949][342]Cmd: TRANSACTION UNDO
+[2022.11.27-23.30.41:949][342]LogEditorTransaction: Undo Edit Typeface
+[2022.11.27-23.30.41:989][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.41:990][342]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.41:992][342]LogSlate: Took 0.000707 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.27-23.30.41:992][342]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.27-23.30.41:992][342]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-23.30.42:007][342]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-23.30.42:009][342]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.42:408][364]Cmd: TRANSACTION UNDO
+[2022.11.27-23.30.42:408][364]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-23.30.42:446][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.42:447][364]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.42:449][364]LogSlate: Took 0.000656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.27-23.30.42:449][364]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.27-23.30.42:450][364]LogSlate: Took 0.000079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-23.30.42:464][364]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-23.30.42:465][364]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.48:285][710]Cmd: TRANSACTION UNDO
+[2022.11.27-23.30.48:285][710]LogEditorTransaction: Undo Edit Typeface
+[2022.11.27-23.30.48:328][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.48:329][710]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.48:331][710]LogSlate: Took 0.000655 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.27-23.30.48:331][710]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.27-23.30.48:331][710]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-23.30.48:345][710]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-23.30.48:347][710]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.30.48:851][736]Cmd: TRANSACTION UNDO
+[2022.11.27-23.30.48:851][736]LogEditorTransaction: Undo Edit Font Family
+[2022.11.27-23.30.48:888][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.30.48:889][736]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.27-23.30.48:892][736]LogSlate: Took 0.000700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.27-23.30.48:892][736]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.27-23.30.48:892][736]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.27-23.30.48:906][736]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.27-23.30.48:908][736]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.31.24:012][816]LogSlate: Window 'Color Picker' being destroyed
+[2022.11.27-23.31.35:296][474]LogSlate: Window 'Color Picker' being destroyed
+[2022.11.27-23.31.48:002][231]BlueprintLog: New page: Compile WBP_MainMenu
+[2022.11.27-23.31.48:027][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.11.27-23.31.48:482][254]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/WBP_MainMenuFEBC543A40F31C8F7E35C18EA54EE2E2.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.uasset'
+[2022.11.27-23.31.48:504][254]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2022.11.27-23.31.48:504][254]LogContentValidation: Display: Validating WidgetBlueprint /Game/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.WBP_MainMenu
+[2022.11.27-23.32.16:189][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.11.27-23.32.16:192][539]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexBrusow_GD_Project/Maps/ThirdPersonExampleMap' took 0.029
+[2022.11.27-23.32.16:194][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold] ([1] browsable assets)...
+[2022.11.27-23.32.16:194][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold]
+[2022.11.27-23.32.16:196][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Bold_Auto1DD8C9AC043949128A5DA8AB650193A40.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold_Auto1.uasset'
+[2022.11.27-23.32.16:196][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:199][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold_Font.RobotoMono-Bold_Font]
+[2022.11.27-23.32.16:199][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold_Font]
+[2022.11.27-23.32.16:202][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Bold_Font_Auto12F075D154BA4B8DF55FD9FBD7397881C.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold_Font_Auto1.uasset'
+[2022.11.27-23.32.16:203][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic] ([1] browsable assets)...
+[2022.11.27-23.32.16:203][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic]
+[2022.11.27-23.32.16:206][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-BoldItalic_Auto1A13AE1BB424659CBDA67A5B69E3480B0.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic_Auto1.uasset'
+[2022.11.27-23.32.16:207][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:211][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic_Font.RobotoMono-BoldItalic_Font]
+[2022.11.27-23.32.16:211][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic_Font]
+[2022.11.27-23.32.16:232][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-BoldItalic_Font_Auto1DA1853C440639C306BE4308B9A53DEC0.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic_Font_Auto1.uasset'
+[2022.11.27-23.32.16:234][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight] ([1] browsable assets)...
+[2022.11.27-23.32.16:234][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight]
+[2022.11.27-23.32.16:237][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLight_Auto1040C89D7437A1970DB55199C98EA71B8.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Auto1.uasset'
+[2022.11.27-23.32.16:238][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:242][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Font.RobotoMono-ExtraLight_Font]
+[2022.11.27-23.32.16:242][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Font]
+[2022.11.27-23.32.16:246][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLight_Font_Auto188C87347496605523CC59B87F81380C3.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Font_Auto1.uasset'
+[2022.11.27-23.32.16:248][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic] ([1] browsable assets)...
+[2022.11.27-23.32.16:248][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic]
+[2022.11.27-23.32.16:250][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLightItalic_AutoFE04AC7149979C69F231059E7A18FFE9.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic_Auto1.uasset'
+[2022.11.27-23.32.16:251][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:255][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic_Font.RobotoMono-ExtraLightItalic_Font]
+[2022.11.27-23.32.16:256][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic_Font]
+[2022.11.27-23.32.16:261][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLightItalic_FontF1D6B8B945D635B2D9ED30A9D5030C82.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic_Font_Auto1.uasset'
+[2022.11.27-23.32.16:262][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic] ([1] browsable assets)...
+[2022.11.27-23.32.16:262][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic]
+[2022.11.27-23.32.16:265][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Italic_Auto1F31040124ABDB027D79E1CB7F7899F20.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic_Auto1.uasset'
+[2022.11.27-23.32.16:266][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:270][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic_Font.RobotoMono-Italic_Font]
+[2022.11.27-23.32.16:270][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic_Font]
+[2022.11.27-23.32.16:274][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Italic_Font_Auto12EEF4485413AAA0566FEB49DF3F170B6.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic_Font_Auto1.uasset'
+[2022.11.27-23.32.16:276][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light] ([1] browsable assets)...
+[2022.11.27-23.32.16:276][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light]
+[2022.11.27-23.32.16:278][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Light_Auto1FC85D6314C522A1E902B23A8117D703E.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light_Auto1.uasset'
+[2022.11.27-23.32.16:279][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:283][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light_Font.RobotoMono-Light_Font]
+[2022.11.27-23.32.16:283][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light_Font]
+[2022.11.27-23.32.16:287][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Light_Font_Auto126BC90C34ECE4E68872FF788E26E8C93.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light_Font_Auto1.uasset'
+[2022.11.27-23.32.16:288][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic] ([1] browsable assets)...
+[2022.11.27-23.32.16:288][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic]
+[2022.11.27-23.32.16:291][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-LightItalic_Auto17ACB317847E8F26A6EEC96A7D05423F6.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic_Auto1.uasset'
+[2022.11.27-23.32.16:292][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:296][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic_Font.RobotoMono-LightItalic_Font]
+[2022.11.27-23.32.16:296][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic_Font]
+[2022.11.27-23.32.16:299][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-LightItalic_Font_Auto3CF324A549F5EA31AC65CCBA7BC90C78.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic_Font_Auto1.uasset'
+[2022.11.27-23.32.16:300][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium] ([1] browsable assets)...
+[2022.11.27-23.32.16:300][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium]
+[2022.11.27-23.32.16:301][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Medium_Auto1ADEB640D4C08589126DFFD8F88DCD968.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium_Auto1.uasset'
+[2022.11.27-23.32.16:302][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:305][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium_Font.RobotoMono-Medium_Font]
+[2022.11.27-23.32.16:306][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium_Font]
+[2022.11.27-23.32.16:308][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Medium_Font_Auto17C2A96D143426DAEF6F951A23E91A364.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium_Font_Auto1.uasset'
+[2022.11.27-23.32.16:310][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic] ([1] browsable assets)...
+[2022.11.27-23.32.16:310][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic]
+[2022.11.27-23.32.16:311][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-MediumItalic_Auto12C9240634BA629EDF8B5A9955FA86144.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic_Auto1.uasset'
+[2022.11.27-23.32.16:312][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:315][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic_Font.RobotoMono-MediumItalic_Font]
+[2022.11.27-23.32.16:315][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic_Font]
+[2022.11.27-23.32.16:318][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-MediumItalic_Font_Aut2AB9B2D04B6EA866C473928C381DA0EA.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic_Font_Auto1.uasset'
+[2022.11.27-23.32.16:319][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular] ([1] browsable assets)...
+[2022.11.27-23.32.16:319][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular]
+[2022.11.27-23.32.16:321][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Regular_Auto14515DFDE422ED098DA2C3E8FEF5E357B.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular_Auto1.uasset'
+[2022.11.27-23.32.16:322][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:325][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular_Font.RobotoMono-Regular_Font]
+[2022.11.27-23.32.16:326][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular_Font]
+[2022.11.27-23.32.16:330][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Regular_Font_Auto16327AFD44C2E833D9A0847BCBEF26522.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular_Font_Auto1.uasset'
+[2022.11.27-23.32.16:331][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold] ([1] browsable assets)...
+[2022.11.27-23.32.16:331][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold]
+[2022.11.27-23.32.16:332][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBold_Auto1A8630CA94502644C220A5A8156A5B2DB.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold_Auto1.uasset'
+[2022.11.27-23.32.16:333][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:336][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold_Font.RobotoMono-SemiBold_Font]
+[2022.11.27-23.32.16:336][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold_Font]
+[2022.11.27-23.32.16:339][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBold_Font_Auto11310BE1E4D310E357DF4D4BD67E76781.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold_Font_Auto1.uasset'
+[2022.11.27-23.32.16:340][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic] ([1] browsable assets)...
+[2022.11.27-23.32.16:341][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic]
+[2022.11.27-23.32.16:344][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBoldItalic_Auto1BD64F95E44EB6518BB2AD2B4D14D3551.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic_Auto1.uasset'
+[2022.11.27-23.32.16:345][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:351][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic_Font.RobotoMono-SemiBoldItalic_Font]
+[2022.11.27-23.32.16:351][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic_Font]
+[2022.11.27-23.32.16:354][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBoldItalic_Font_A22B72447436BD7EDCF1F179970CA5709.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic_Font_Auto1.uasset'
+[2022.11.27-23.32.16:355][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin] ([1] browsable assets)...
+[2022.11.27-23.32.16:355][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin]
+[2022.11.27-23.32.16:357][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Thin_Auto13ADAACF04FA58E71F278E4AF55A90266.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin_Auto1.uasset'
+[2022.11.27-23.32.16:358][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:362][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin_Font.RobotoMono-Thin_Font]
+[2022.11.27-23.32.16:362][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin_Font]
+[2022.11.27-23.32.16:365][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Thin_Font_Auto1AC319DF44621532EFBDC71B500E42807.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin_Font_Auto1.uasset'
+[2022.11.27-23.32.16:366][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic] ([1] browsable assets)...
+[2022.11.27-23.32.16:366][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic]
+[2022.11.27-23.32.16:368][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ThinItalic_Auto10A12385544F4FCB5F1EBADBBE4FA4F9F.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic_Auto1.uasset'
+[2022.11.27-23.32.16:369][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic_Font] ([1] browsable assets)...
+[2022.11.27-23.32.16:372][539]OBJ SavePackage:     Rendered thumbnail for [Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic_Font.RobotoMono-ThinItalic_Font]
+[2022.11.27-23.32.16:372][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic_Font]
+[2022.11.27-23.32.16:375][539]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ThinItalic_Font_Auto1709DB4184819F877231713A0EBADE892.tmp' to '../../../../UEProjects/AlexBrusowProject/Saved/Autosaves/Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic_Font_Auto1.uasset'
+[2022.11.27-23.32.16:376][539]LogFileHelpers: Auto-saving content packages took 0.184
+[2022.11.27-23.32.35:922][695]BlueprintLog: New page: Compile WBP_MainMenu
+[2022.11.27-23.32.35:947][695]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.11.27-23.32.36:493][724]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/WBP_MainMenu23E6CD0F44D12861099B70A09BE34952.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.uasset'
+[2022.11.27-23.32.36:508][724]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2022.11.27-23.32.36:508][724]LogContentValidation: Display: Validating WidgetBlueprint /Game/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.WBP_MainMenu
+[2022.11.27-23.33.10:649][896]BlueprintLog: New page: Compile WBP_MainMenu
+[2022.11.27-23.33.10:672][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.11.27-23.33.11:193][924]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/WBP_MainMenu593479ED4AF66A5B6554458FB83097A6.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.uasset'
+[2022.11.27-23.33.11:211][924]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2022.11.27-23.33.11:211][924]LogContentValidation: Display: Validating WidgetBlueprint /Game/AlexBrusow_GD_Project/Widgets/MainMenu/WBP_MainMenu.WBP_MainMenu
+[2022.11.27-23.33.19:890][445]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.27-23.33.47:009][ 60]LogAssetEditorSubsystem: Opening Asset editor for World /Game/AlexBrusow_GD_Project/Maps/MainMenu.MainMenu
+[2022.11.27-23.33.47:036][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.11.27-23.33.49:478][ 60]LogSlate: Window 'Save Content' being destroyed
+[2022.11.27-23.33.49:510][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.11.27-23.33.49:515][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/MainMenuED16B6A244DEEE968D09C786AA633E48.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/MainMenu.umap'
+[2022.11.27-23.33.49:517][ 60]LogFileHelpers: Saving map 'MainMenu' took 0.028
+[2022.11.27-23.33.49:518][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Bold88A4A1AC42A2D80900227BBACB1459F2.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold.uasset'
+[2022.11.27-23.33.49:525][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Bold_Font9FB3F6884701A52F838ADA8A16105531.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold_Font.uasset'
+[2022.11.27-23.33.49:533][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-BoldItalicDD38DD7D4EDE0D8B680679B83AE8C3A5.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic.uasset'
+[2022.11.27-23.33.49:539][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-BoldItalic_Font88F6D06E43E75E95E8CFF1BD6C268B16.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic_Font.uasset'
+[2022.11.27-23.33.49:546][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLight66347333478D3F8A16EC3DBDCBED0322.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight.uasset'
+[2022.11.27-23.33.49:552][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLight_FontFA3FD74D45073B66D345119F30196CCF.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Font.uasset'
+[2022.11.27-23.33.49:559][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLightItalic4D70F41F49F467BD1624228AF1ED4186.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic.uasset'
+[2022.11.27-23.33.49:565][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ExtraLightItalic_Font072CD12244E5CBC289AAA99E52858A86.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic_Font.uasset'
+[2022.11.27-23.33.49:572][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Italic68DBCE204DA5C8C9BF213B8409754F44.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic.uasset'
+[2022.11.27-23.33.49:578][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Italic_Font2BD4674840DBB381DCFA6E8EDE9DBA95.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic_Font.uasset'
+[2022.11.27-23.33.49:585][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Light94EBA379475B5911A7D6B9BF327335C7.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light.uasset'
+[2022.11.27-23.33.49:591][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Light_Font8A2BEAB94471A9C0B375A99E624B3CE8.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light_Font.uasset'
+[2022.11.27-23.33.49:596][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-LightItalic703EE046444585B195E54083EF64D616.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic.uasset'
+[2022.11.27-23.33.49:602][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-LightItalic_Font0C4E441D44D08600FDD1249145440F70.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic_Font.uasset'
+[2022.11.27-23.33.49:607][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-MediumB611F59E40811A7BECB10393C9A12089.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium.uasset'
+[2022.11.27-23.33.49:615][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Medium_FontB8D64E1443E317C549E22C85A29DD8C6.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium_Font.uasset'
+[2022.11.27-23.33.49:620][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-MediumItalic0B92DA1C4E8597AE1A49A5BE69A4BF62.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic.uasset'
+[2022.11.27-23.33.49:625][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-MediumItalic_Font40CDEE2440F81961D7C2D2BEF5D3E380.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic_Font.uasset'
+[2022.11.27-23.33.49:630][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Regular521FC798452236B339FDAE836A7BF86F.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular.uasset'
+[2022.11.27-23.33.49:638][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Regular_FontD83F811F412B93C305BE33A519C4D4AE.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular_Font.uasset'
+[2022.11.27-23.33.49:644][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBoldEDB773C44BA6E83650CADF97236F52FD.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold.uasset'
+[2022.11.27-23.33.49:649][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBold_Font8AFE80A740D345D2D36B819CCAABCA79.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold_Font.uasset'
+[2022.11.27-23.33.49:656][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBoldItalic2C6E2CAB453A4497F7D7469C3D04E801.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic.uasset'
+[2022.11.27-23.33.49:661][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-SemiBoldItalic_FontBEBE0AA0412DA395D0B10598E492493A.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic_Font.uasset'
+[2022.11.27-23.33.49:666][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ThinA234CE3D4B0FD0F854FF628BC0A8BEF7.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin.uasset'
+[2022.11.27-23.33.49:672][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-Thin_FontD229976049DC1D78FF2630B6267BBA51.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin_Font.uasset'
+[2022.11.27-23.33.49:678][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ThinItalicA989E370433A9B0D66A128A53C50BB68.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic.uasset'
+[2022.11.27-23.33.49:683][ 60]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/RobotoMono-ThinItalic_FontF971EE2A4B4950C5AB0FEE8332B0F6BB.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic_Font.uasset'
+[2022.11.27-23.33.49:685][ 60]Cmd: MAP LOAD FILE="../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.27-23.33.49:685][ 60]LightingResults: New page: Lighting Build
+[2022.11.27-23.33.49:686][ 60]LoadErrors: New page: Loading map: MainMenu.umap
+[2022.11.27-23.33.49:692][ 60]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.33.49:692][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.33.49:692][ 60]MapCheck: New page: Map Check
+[2022.11.27-23.33.49:692][ 60]LightingResults: New page: Lighting Build
+[2022.11.27-23.33.49:716][ 60]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027A54849400), frame # 30060
+[2022.11.27-23.33.49:716][ 60]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027A4E955800), frame # 30060
+[2022.11.27-23.33.49:719][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.11.27-23.33.49:873][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.27-23.33.49:873][ 60]LogAIModule: Creating AISystem for world MainMenu
+[2022.11.27-23.33.49:873][ 60]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027AA8277C00), frame # 30060
+[2022.11.27-23.33.49:873][ 60]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027A54594F40), frame # 30060
+[2022.11.27-23.33.49:894][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.11.27-23.33.49:915][ 60]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.27-23.33.49:915][ 60]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,114ms to complete.
+[2022.11.27-23.33.49:915][ 60]LogFileHelpers: Loading map 'MainMenu' took 0.230
+[2022.11.27-23.33.50:046][ 60]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating World /Game/AlexBrusow_GD_Project/Maps/MainMenu.MainMenu
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold.RobotoMono-Bold
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Bold_Font.RobotoMono-Bold_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic.RobotoMono-BoldItalic
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-BoldItalic_Font.RobotoMono-BoldItalic_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight.RobotoMono-ExtraLight
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLight_Font.RobotoMono-ExtraLight_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic.RobotoMono-ExtraLightItalic
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ExtraLightItalic_Font.RobotoMono-ExtraLightItalic_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic.RobotoMono-Italic
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Italic_Font.RobotoMono-Italic_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light.RobotoMono-Light
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Light_Font.RobotoMono-Light_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic.RobotoMono-LightItalic
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-LightItalic_Font.RobotoMono-LightItalic_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium.RobotoMono-Medium
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Medium_Font.RobotoMono-Medium_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic.RobotoMono-MediumItalic
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-MediumItalic_Font.RobotoMono-MediumItalic_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular.RobotoMono-Regular
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Regular_Font.RobotoMono-Regular_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold.RobotoMono-SemiBold
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBold_Font.RobotoMono-SemiBold_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic.RobotoMono-SemiBoldItalic
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-SemiBoldItalic_Font.RobotoMono-SemiBoldItalic_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin.RobotoMono-Thin
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-Thin_Font.RobotoMono-Thin_Font
+[2022.11.27-23.33.50:046][ 60]LogContentValidation: Display: Validating FontFace /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic.RobotoMono-ThinItalic
+[2022.11.27-23.33.50:047][ 60]LogContentValidation: Display: Validating Font /Game/AlexBrusow_GD_Project/Widgets/MainMenu/Font/RobotoMono-ThinItalic_Font.RobotoMono-ThinItalic_Font
+[2022.11.27-23.34.18:912][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.11.27-23.34.18:927][656]LogSavePackage: Moving '../../../../UEProjects/AlexBrusowProject/Saved/MainMenu0257ABAD42B6F76574CC959F6F724B2A.tmp' to '../../../../UEProjects/AlexBrusowProject/Content/AlexBrusow_GD_Project/Maps/MainMenu.umap'
+[2022.11.27-23.34.18:959][656]AssetCheck: New page: Asset Save: MainMenu
+[2022.11.27-23.34.18:959][656]LogContentValidation: Display: Validating World /Game/AlexBrusow_GD_Project/Maps/MainMenu.MainMenu
+[2022.11.27-23.34.19:816][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.11.27-23.34.19:840][707]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.19:840][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.34.19:849][707]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.19:849][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.27-23.34.19:974][707]LogSlate: Window 'AlexBrusowProject - Unreal Editor' being destroyed
+[2022.11.27-23.34.20:132][708]Cmd: QUIT_EDITOR
+[2022.11.27-23.34.20:132][708]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.11.27-23.34.20:149][708]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.11.27-23.34.20:165][708]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.11.27-23.34.20:172][708]LogExit: Preparing to exit.
+[2022.11.27-23.34.20:644][708]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.20:646][708]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.20:649][708]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.20:651][708]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.20:653][708]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.20:706][708]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.11.27-23.34.20:706][708]LogExit: Editor shut down
+[2022.11.27-23.34.20:707][708]LogExit: Transaction tracking system shut down
+[2022.11.27-23.34.20:710][708]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.11.27-23.34.20:880][708]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027A54594F40), frame # 30708
+[2022.11.27-23.34.20:880][708]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027AA8277C00), frame # 30708
+[2022.11.27-23.34.20:900][708]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000027A5E9B1340), frame # 30708
+[2022.11.27-23.34.20:900][708]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027A5E8D7EC0), frame # 30708
+[2022.11.27-23.34.20:900][708]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027A5E92B000), frame # 30708
+[2022.11.27-23.34.21:001][708]LogExit: Object subsystem successfully closed.
+[2022.11.27-23.34.21:034][708]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.11.27-23.34.21:063][708]LogModuleManager: Shutting down and abandoning module FontEditor (802)
+[2022.11.27-23.34.21:063][708]LogModuleManager: Shutting down and abandoning module SequencerWidgets (800)
+[2022.11.27-23.34.21:063][708]LogModuleManager: Shutting down and abandoning module BlueprintGraph (798)
+[2022.11.27-23.34.21:063][708]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2022.11.27-23.34.21:063][708]LogModuleManager: Shutting down and abandoning module SceneOutliner (794)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module AddContentDialog (792)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module WidgetCarousel (791)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module EditorWidgets (788)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module CollectionManager (786)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (784)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2022.11.27-23.34.21:064][708]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2022.11.27-23.34.21:065][708]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2022.11.27-23.34.21:065][708]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2022.11.27-23.34.21:065][708]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2022.11.27-23.34.21:065][708]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2022.11.27-23.34.21:065][708]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2022.11.27-23.34.21:065][708]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2022.11.27-23.34.21:066][708]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2022.11.27-23.34.21:068][708]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2022.11.27-23.34.21:069][708]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2022.11.27-23.34.21:069][708]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2022.11.27-23.34.21:069][708]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2022.11.27-23.34.21:069][708]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2022.11.27-23.34.21:069][708]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2022.11.27-23.34.21:069][708]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2022.11.27-23.34.21:069][708]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2022.11.27-23.34.22:084][708]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2022.11.27-23.34.22:085][708]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2022.11.27-23.34.22:085][708]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2022.11.27-23.34.22:085][708]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2022.11.27-23.34.22:085][708]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2022.11.27-23.34.22:087][708]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2022.11.27-23.34.22:088][708]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2022.11.27-23.34.22:089][708]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2022.11.27-23.34.22:089][708]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2022.11.27-23.34.22:089][708]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2022.11.27-23.34.22:089][708]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2022.11.27-23.34.22:089][708]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2022.11.27-23.34.22:089][708]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2022.11.27-23.34.22:089][708]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2022.11.27-23.34.22:122][708]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2022.11.27-23.34.22:122][708]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2022.11.27-23.34.22:122][708]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2022.11.27-23.34.22:123][708]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2022.11.27-23.34.22:123][708]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2022.11.27-23.34.22:123][708]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2022.11.27-23.34.22:123][708]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2022.11.27-23.34.22:123][708]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2022.11.27-23.34.22:124][708]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2022.11.27-23.34.22:124][708]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2022.11.27-23.34.22:124][708]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2022.11.27-23.34.22:130][708]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2022.11.27-23.34.22:130][708]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2022.11.27-23.34.22:131][708]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2022.11.27-23.34.22:132][708]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2022.11.27-23.34.22:261][708]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2022.11.27-23.34.22:262][708]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2022.11.27-23.34.22:262][708]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2022.11.27-23.34.22:262][708]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2022.11.27-23.34.22:262][708]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2022.11.27-23.34.22:263][708]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module EasyBallistics (478)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2022.11.27-23.34.22:267][708]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2022.11.27-23.34.22:268][708]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2022.11.27-23.34.22:268][708]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2022.11.27-23.34.22:268][708]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2022.11.27-23.34.22:268][708]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2022.11.27-23.34.22:268][708]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2022.11.27-23.34.22:269][708]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module SoundFields (366)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module SignificanceManager (364)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (362)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (360)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (356)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module ActorSequence (354)
+[2022.11.27-23.34.22:270][708]LogModuleManager: Shutting down and abandoning module UdpMessaging (352)
+[2022.11.27-23.34.22:371][708]LogModuleManager: Shutting down and abandoning module TcpMessaging (350)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (348)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (346)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (344)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (342)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (340)
+[2022.11.27-23.34.22:471][708]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (338)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (336)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (334)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (332)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapController (330)
+[2022.11.27-23.34.22:471][708]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (328)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module MagicLeapAR (326)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module AugmentedReality (325)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (322)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module Niagara (320)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module SignalProcessing (319)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module NiagaraEditor (317)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module NiagaraCore (314)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (312)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (310)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module FacialAnimation (308)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module DataValidation (306)
+[2022.11.27-23.34.22:471][708]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (304)
+[2022.11.27-23.34.22:472][708]LogModuleManager: Shutting down and abandoning module LevelEditor (303)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (302)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (300)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module MainFrame (298)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module HotReload (297)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module ToolMenus (293)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module TreeMap (291)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module AnimationSharing (288)
+[2022.11.27-23.34.22:473][708]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (286)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module Paper2D (284)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (282)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (280)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (278)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module PacketHandler (276)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (274)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (272)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module MediaAssets (270)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module Overlay (268)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module OverlayEditor (267)
+[2022.11.27-23.34.22:474][708]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (264)
+[2022.11.27-23.34.22:475][708]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2022.11.27-23.34.22:475][708]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2022.11.27-23.34.22:475][708]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2022.11.27-23.34.22:475][708]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2022.11.27-23.34.22:475][708]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2022.11.27-23.34.22:475][708]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2022.11.27-23.34.22:476][708]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2022.11.27-23.34.22:476][708]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2022.11.27-23.34.22:476][708]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2022.11.27-23.34.22:476][708]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2022.11.27-23.34.22:476][708]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2022.11.27-23.34.22:477][708]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module Core (216)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2022.11.27-23.34.22:478][708]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2022.11.27-23.34.22:479][708]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2022.11.27-23.34.22:480][708]LogXGEController: Cleaning working directory: C:/Users/pus5y/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2022.11.27-23.34.22:480][708]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2022.11.27-23.34.22:481][708]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2022.11.27-23.34.22:483][708]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2022.11.27-23.34.22:484][708]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2022.11.27-23.34.22:485][708]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2022.11.27-23.34.22:491][708]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2022.11.27-23.34.22:491][708]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2022.11.27-23.34.22:491][708]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2022.11.27-23.34.22:491][708]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2022.11.27-23.34.22:492][708]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2022.11.27-23.34.22:492][708]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2022.11.27-23.34.22:492][708]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2022.11.27-23.34.22:492][708]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2022.11.27-23.34.22:492][708]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2022.11.27-23.34.22:492][708]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2022.11.27-23.34.22:492][708]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2022.11.27-23.34.22:493][708]LogHMD: Freeing OpenVRDLLHandle.
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2022.11.27-23.34.22:493][708]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2022.11.27-23.34.22:494][708]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2022.11.27-23.34.22:494][708]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2022.11.27-23.34.22:519][708]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2022.11.27-23.34.22:519][708]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.11.27-23.34.22:519][708]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B48F6F5AA-40B5-29C4-82EE-AE91D692A2BB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=d2c1305d4f17c256a99105b639f16723%7Cddacd3fb78ff42418619b47fd3fa8bd4%7C7507d0e2-5ecf-4154-bb9e-9da54c9a5a8c&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2022.11.27-23.34.22:549][708]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2022.11.27-23.34.22:550][708]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2022.11.27-23.34.22:551][708]LogModuleManager: Shutting down and abandoning module Media (61)
+[2022.11.27-23.34.22:551][708]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2022.11.27-23.34.22:551][708]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2022.11.27-23.34.22:552][708]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2022.11.27-23.34.22:553][708]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.11.27-23.34.22:553][708]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.11.27-23.34.22:553][708]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.11.27-23.34.22:553][708]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.11.27-23.34.22:555][708]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.11.27-23.34.22:556][708]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.11.27-23.34.22:556][708]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.11.27-23.34.22:556][708]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.11.27-23.34.22:561][708]LogD3D11RHI: Shutdown
+[2022.11.27-23.34.22:561][708]LogD3D11RHI: CleanupD3DDevice
+[2022.11.27-23.34.22:577][708]LogExit: Exiting.
+[2022.11.27-23.34.22:595][708]Log file closed, 11/28/22 02:34:22
